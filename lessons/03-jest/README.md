@@ -1,6 +1,6 @@
 ## Adding Jest with TypeScript Support to a Vite Application
 
-The app is built on top of [vite](https://vitejs.dev/) instead of the more popular create react app. The benefit of vite is that it install sand builds extremely quickly. One of the downsides of vite is that it doesn't come with any out-of-the-box testing support. It also has its own [esbuild-based compiler](https://vitejs.dev/guide/features.html#typescript), which is not currently compatible with jest, so we have to configure JSX & TypeScript support for jest even though vite handles it already.
+The app is built on top of [vite](https://vitejs.dev/) instead of the more popular create react app. The benefit of vite is that it installs and builds extremely quickly. One of the downsides of vite is that it doesn't come with any out-of-the-box testing support. It also has its own [esbuild-based compiler](https://vitejs.dev/guide/features.html#typescript), which is not currently compatible with jest, so we have to configure JSX & TypeScript support for jest even though vite handles it already.
 
 This lesson requires installing a handful of modules:
 
